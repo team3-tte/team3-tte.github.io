@@ -1173,9 +1173,23 @@ a {
   letter-spacing: 0;
 }
 
-.logo-grid {
+.logo-grid,
+.logo-pair-grid {
   display: grid;
   gap: 0.85rem;
+}
+
+.logo-pair-grid {
+  gap: 1rem;
+}
+
+.logo-pair-card {
+  display: grid;
+  gap: 0.7rem;
+  padding: 0.75rem;
+  border-radius: var(--radius-lg);
+  background: rgba(8, 38, 63, 0.05);
+  border: 1px solid rgba(8, 38, 63, 0.08);
 }
 
 .logo-tile {
@@ -1198,6 +1212,18 @@ a {
   width: 100%;
   max-height: 5rem;
   object-fit: contain;
+}
+
+.logo-tile-lab {
+  min-height: 6.2rem;
+}
+
+.logo-tile-university {
+  min-height: 5rem;
+}
+
+.logo-tile-university img {
+  max-height: 3.6rem;
 }
 
 .logo-tile-wide img {
@@ -1247,7 +1273,8 @@ a {
     align-items: start;
   }
 
-  .logo-grid {
+  .logo-grid,
+  .logo-pair-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
