@@ -1218,6 +1218,14 @@ a {
   min-height: 6.2rem;
 }
 
+.logo-tile-bilab {
+  padding: 0.45rem;
+}
+
+.logo-tile-bilab img {
+  max-height: 6rem;
+}
+
 .logo-tile-university {
   min-height: 5rem;
 }
