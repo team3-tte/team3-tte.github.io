@@ -1234,6 +1234,17 @@ a {
   max-height: 3.6rem;
 }
 
+.logo-tile-snu {
+  padding: 0.35rem;
+  overflow: hidden;
+}
+
+.logo-tile-snu img {
+  width: 115%;
+  max-width: none;
+  max-height: 4.4rem;
+}
+
 .logo-tile-wide img {
   max-height: 6rem;
 }
